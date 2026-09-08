@@ -102,6 +102,7 @@ export default function App() {
 
       <footer className="text-center text-xs text-muted font-mono mt-10 pb-4 space-y-1">
         <p>ExpenseMind — data stays on your device via LocalStorage</p>
+        <p>© 2026 ExpenseMind · Developed by Abhishek Singh</p>
         {!isEmpty && (
           <button onClick={handleClearAll} className="underline hover:text-coral transition-colors">
             Start fresh — clear all data
